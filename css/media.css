@@ -1,0 +1,34 @@
+/*! start nav  */
+
+@media  (max-width: 992px) {
+  .navbar .nav-item {
+    padding: 5px 5px 5px 15px  !important;
+  }
+
+  .navbar-collapse{
+    padding: 10px 0;;
+    margin-top: 10px;
+    width: 95%;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    left:2%;
+    height: 90vh;
+    z-index: 55;
+    background-color: #fff !important;
+  }
+
+  .navbar .nav-item .nav-link {
+    color: var(--colot-tertiary) !important;
+  }
+
+  .navbar .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .navbar .nav-item:hover .nav-link {
+    color: var(--hover-color) !important;
+  }
+}
+
+/*! End nav  */
